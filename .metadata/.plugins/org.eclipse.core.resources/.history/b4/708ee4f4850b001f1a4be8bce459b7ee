@@ -1,0 +1,11 @@
+package com.hm;
+
+import java.util.*;
+public class Dev {
+
+	public Dev() {
+		// TODO Auto-generated constructor stub
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

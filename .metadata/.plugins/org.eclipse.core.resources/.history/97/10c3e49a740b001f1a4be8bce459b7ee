@@ -1,0 +1,14 @@
+package com.hm;
+import java.util.*;
+public class A {
+
+	public A() {
+		// TODO Auto-generated constructor stub
+		Scanner sc =  new Scanner(System.in);
+		
+		String id = sc.nextInt();
+		String name =  sc.next();
+		System.out.print("My ID is: "+ id + "\nMy name is : "+name);
+	}
+
+}

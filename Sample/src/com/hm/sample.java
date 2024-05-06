@@ -1,0 +1,9 @@
+package com.hm;
+
+public class sample {
+	public static void main(String Args[]) {
+		A a = new A();
+		a.display();
+	}
+
+}

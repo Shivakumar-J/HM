@@ -1,0 +1,19 @@
+package com.hm;
+import java.util.*;
+public class A {
+
+	public A() {
+		// TODO Auto-generated constructor stub
+		Scanner sc =  new Scanner(System.in);
+		System.out.println("Enter id and name");
+		int id = sc.nextInt();
+		String name =  sc.next();
+		System.out.print("My ID is: "+ id + "\nMy name is : "+name);
+		
+		System.out.println("\nEnter Age and Salary as well");
+		int age = sc.nextInt();
+		int salary = sc.nextInt();
+		System.out.println("age is : "+age + "\nsalary is : "+salary);
+	}
+
+}
